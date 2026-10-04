@@ -77,11 +77,11 @@ evidence/
   README.md            Captioned index of all publication images
   evidence-gallery.html Local browser gallery
   image-manifest.json  Publication image hashes and review information
-  assets/              Reviewed PNGs grouped by project phase
+  assets/              Reviewed PNG and lossless WebP images grouped by phase
   results/             Sanitized structured observations and verification records
 scripts/
   install-stock-usb.sh Recorded installation script used in this project
-  verify-publication.py Image hashes, PNG metadata, and local-link checks
+  verify-publication.py Image hashes, metadata, and local-link checks
 ```
 
 Full disk images, firmware exports, raw configurations, passwords, and unsanitized originals remain outside this repository. The installation script is a record of the specific guarded procedure used; read the [installation document](docs/03-openwrt-installation.md) before considering it for another device.
