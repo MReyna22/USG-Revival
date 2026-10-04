@@ -1,0 +1,96 @@
+{
+  "project": "USG Revival",
+  "equipment_id": "GW-001",
+  "completion_date": "2026-10-04",
+  "scope": "Basic appliance revival and functional validation, plus visible firewall-zone review",
+  "result": "Completed scoped validation",
+  "firmware": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+  "kernel": "6.12.94",
+  "firmware_archive_sha256": "22a7fe40330126ce772de8c89062844197681276fc0ba452bc3ba3e6f607c7df",
+  "captured_results": [
+    {
+      "check": "Kernel/root write comparisons",
+      "evidence": [
+        39
+      ],
+      "result": "Passed"
+    },
+    {
+      "check": "Boot and LuCI management",
+      "evidence": [
+        40,
+        41
+      ],
+      "result": "Passed"
+    },
+    {
+      "check": "Gigabit LAN link and resource reporting",
+      "evidence": [
+        42
+      ],
+      "result": "Documented"
+    },
+    {
+      "check": "Saved hostname after reboot",
+      "evidence": [
+        43
+      ],
+      "result": "Retained"
+    },
+    {
+      "check": "LAN/WAN subnet separation",
+      "evidence": [
+        44
+      ],
+      "result": "No overlap"
+    },
+    {
+      "check": "Upstream IPv4 DHCP lease",
+      "evidence": [
+        45
+      ],
+      "result": "Assigned"
+    },
+    {
+      "check": "PC-001 IPv4 reachability",
+      "evidence": [
+        46
+      ],
+      "result": "4/4 replies, 0% loss, 15 ms displayed average"
+    },
+    {
+      "check": "PC-001 DNS via USG",
+      "evidence": [
+        46
+      ],
+      "result": "example.com resolved"
+    },
+    {
+      "check": "Visible firewall-zone policies",
+      "evidence": [
+        47
+      ],
+      "result": "Match default baseline; enforcement untested"
+    }
+  ],
+  "direct_operator_reports": [
+    "Fresh login with changed administrator password after reboot succeeded",
+    "Current configuration archive generated and kept private outside public repository",
+    "example.com loaded without issues in Edge on PC-001"
+  ],
+  "not_tested": [
+    "Inbound firewall enforcement and traffic-rule/port-forward audit",
+    "Public IPv6 connectivity",
+    "Throughput and long-term reliability",
+    "Backup restoration",
+    "Clock synchronization and absolute accuracy",
+    "VLAN isolation, VPN, IDS/IPS, or main household gateway deployment"
+  ],
+  "browser_limit": "Requested HTTPS target; actual address-bar scheme and TLS details not independently captured",
+  "client_topology_limit": "Wi-Fi disabled by prior operator report; terminal photo does not independently show adapter state",
+  "publication_images": 46,
+  "images_redacted": 22,
+  "images_without_sensitive_details_identified": 24,
+  "images_context_labeled": 23,
+  "unavailable_source_image": 7
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "squashfs.img",
+    "bytes": 103428096,
+    "declared_md5": "10f64178501d8aa399fab034751e7e80",
+    "computed_md5": "10F64178501D8AA399FAB034751E7E80",
+    "md5_match": true,
+    "sha256": "0B6F159D80F4BCCDC71DD504ED8AC55E24A4A80646DE4795EA8DB412A41397A0",
+    "verification_date": "2026-10-04",
+    "verification_method": "Locally recomputed from exported files; agrees with user PowerShell screenshot"
+  },
+  {
+    "file": "squashfs.o",
+    "bytes": 103796736,
+    "declared_md5": "d8f369808d16d32ae63e605d4f7552ac",
+    "computed_md5": "D8F369808D16D32AE63E605D4F7552AC",
+    "md5_match": true,
+    "sha256": "EB729FFC1AC192AB1F93AC90181D26F8C5AA092F9AEB9A1D67587AC7AB7828C1",
+    "verification_date": "2026-10-04",
+    "verification_method": "Locally recomputed from exported files; agrees with user PowerShell screenshot"
+  }
+]

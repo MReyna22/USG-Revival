@@ -1,0 +1,15 @@
+{
+  "evidence_source_order": 44,
+  "upstream_ipv4_and_gateway": "Private; redacted from publication copy",
+  "upstream_netmask": "255.255.255.0",
+  "upstream_prefix_length": 24,
+  "usg_current_lan": "192.168.1.0/24",
+  "overlap": false,
+  "lan_address_change_required_for_test": false,
+  "test_topology": "Existing router LAN -> USG WAN1; USG LAN1 -> PC-001 Ethernet, PC-001 Wi-Fi disabled",
+  "wan_address_assignment_expected": "DHCP from existing router, to be verified in LuCI Network > Interfaces",
+  "wan_connection_status": "Carrier present and upstream IPv4 DHCP lease confirmed in source 45",
+  "router_and_client_internet_tests": "IPv4 reachability and DNS passed in source 46; Edge example.com browsing successful by direct user report",
+  "limitation": "Wi-Fi network details establish the observed upstream subnet; wired router LAN membership and a successful WAN lease still require confirmation.",
+  "wan_lease_evidence_source_order": 45
+}

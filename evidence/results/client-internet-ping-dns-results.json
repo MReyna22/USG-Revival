@@ -1,0 +1,60 @@
+{
+  "evidence_source_order": 46,
+  "client": "PC-001",
+  "topology_basis": "Previously instructed/reported Ethernet connection to USG LAN1 with Wi-Fi off; current photograph does not independently show adapter state",
+  "ping": {
+    "command": "ping -n 4 1.1.1.1",
+    "target": "1.1.1.1",
+    "sent": 4,
+    "received": 4,
+    "lost": 0,
+    "loss_percent": 0,
+    "reply_times_ms": [
+      13,
+      13,
+      22,
+      15
+    ],
+    "ttl_observed": 54,
+    "minimum_ms": 13,
+    "maximum_ms": 22,
+    "average_ms_displayed": 15,
+    "result": "Passed IPv4 ICMP reachability"
+  },
+  "dns": {
+    "command": "nslookup example.com",
+    "server_name": "USG-Revival.lan",
+    "server_address": "Local IPv6 identifier redacted",
+    "response": "Non-authoritative answer",
+    "name": "example.com",
+    "observed_ipv4_answers": [
+      "172.66.147.243",
+      "104.20.23.154"
+    ],
+    "observed_ipv6_answers": [
+      "2606:4700:10::6814:179a",
+      "2606:4700:10::ac42:93f3"
+    ],
+    "result": "Passed name resolution via USG DNS server",
+    "limitation": "Returned AAAA records do not establish public IPv6 reachability"
+  },
+  "https_browsing": "example.com loaded in Edge on PC-001 by direct user report; requested HTTPS URL, actual scheme/TLS details not independently observed",
+  "firewall_security_validation": "Zone baseline reviewed in source 47; inbound enforcement and rule/port-forward audit not performed",
+  "limitations": [
+    "Small reachability sample; no performance benchmark or long-term stability claim",
+    "No firewall policy verification or public IPv6 connectivity test"
+  ],
+  "browser_confirmation": {
+    "reported_on": "2026-10-04",
+    "evidence_type": "Direct user report following diagnostic screenshot source 46",
+    "client": "PC-001",
+    "browser": "Microsoft Edge",
+    "requested_target": "https://example.com",
+    "observed_target_by_user_report": "example.com",
+    "page_load": "Successful with no issues, confirmed by user",
+    "screenshot_of_page": "Not provided; user confirmation accepted for this check",
+    "scheme_and_tls_details": "Actual address bar, scheme and TLS connection details not independently observed",
+    "topology_basis": "Existing reported Ethernet-only PC-001 -> USG LAN1 -> USG WAN1 -> upstream router topology",
+    "firewall_zone_review": "Pending"
+  }
+}

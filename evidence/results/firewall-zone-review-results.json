@@ -1,0 +1,36 @@
+{
+  "evidence_source_order": 47,
+  "review_date": "2026-10-04",
+  "general": {
+    "input": "reject",
+    "output": "accept",
+    "forward": "reject",
+    "syn_flood_protection": true,
+    "drop_invalid_packets": false,
+    "flow_offloading": "None"
+  },
+  "lan": {
+    "input": "accept",
+    "output": "accept",
+    "intra_zone_forward": "accept",
+    "forwards_to": [
+      "wan"
+    ],
+    "ipv4_masquerading": false
+  },
+  "wan": {
+    "input": "reject",
+    "output": "accept",
+    "intra_zone_forward": "drop",
+    "ipv4_masquerading": true,
+    "explicit_zone_forwarding_to_lan_visible": false
+  },
+  "comparison": "Visible zone policies match OpenWrt default firewall4 zone configuration",
+  "reference": "https://lxr.openwrt.org/source/firewall4/root/etc/config/firewall",
+  "review_result": "Expected zone-policy baseline documented",
+  "scope_limits": [
+    "No inbound packet enforcement test",
+    "Traffic-rule and port-forward tabs not inspected",
+    "Not a comprehensive security assessment"
+  ]
+}

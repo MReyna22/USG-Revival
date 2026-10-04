@@ -1,0 +1,12 @@
+{
+  "reported_on": "2026-10-04",
+  "evidence_type": "Direct user report following source 43 reboot validation",
+  "fresh_login_using_new_password": "Successful logout and login with updated administrator password, confirmed by user",
+  "configuration_backup": "Generated archive of current configuration, confirmed by user",
+  "backup_privacy": "Kept private and outside public repository, confirmed by user",
+  "password_or_backup_contents_collected": false,
+  "backup_file_independently_inspected": false,
+  "backup_restoration_tested": false,
+  "internet_routing_and_firewall_tests": "Not performed",
+  "next_dependency": "Determine upstream home Wi-Fi LAN IPv4 subnet and gateway before configuring USG WAN test"
+}

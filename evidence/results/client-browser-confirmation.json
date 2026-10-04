@@ -1,0 +1,13 @@
+{
+  "reported_on": "2026-10-04",
+  "evidence_type": "Direct user report following diagnostic screenshot source 46",
+  "client": "PC-001",
+  "browser": "Microsoft Edge",
+  "requested_target": "https://example.com",
+  "observed_target_by_user_report": "example.com",
+  "page_load": "Successful with no issues, confirmed by user",
+  "screenshot_of_page": "Not provided; user confirmation accepted for this check",
+  "scheme_and_tls_details": "Actual address bar, scheme and TLS connection details not independently observed",
+  "topology_basis": "Existing reported Ethernet-only PC-001 -> USG LAN1 -> USG WAN1 -> upstream router topology",
+  "firewall_zone_review": "Pending"
+}

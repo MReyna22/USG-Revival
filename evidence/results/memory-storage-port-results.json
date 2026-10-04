@@ -1,0 +1,34 @@
+{
+  "evidence_source_order": 42,
+  "memory": {
+    "available_mib": 334.19,
+    "total_mib": 399.58,
+    "available_percent_displayed": 83,
+    "used_mib": 56.96,
+    "buffered_mib": 12.51,
+    "cached_mib": 16.29
+  },
+  "storage": {
+    "disk_used_mib": 87.76,
+    "disk_total_gib": 1.62,
+    "used_percent_displayed": 5,
+    "temp_used_kib": 216.0,
+    "temp_total_mib": 199.79,
+    "persistent_write_and_reboot_test": "Pending"
+  },
+  "ports": {
+    "eth0": "no link",
+    "eth1": "1 GbE",
+    "eth2": "no link"
+  },
+  "uptime_displayed": "1h 22m 3s",
+  "load_average_displayed": [
+    0.0,
+    0.01,
+    0.0
+  ],
+  "local_time_displayed": "Oct 4, 2026, 3:13:14 AM CDT",
+  "clock_observation": "Date and timezone display changed since source 41; synchronization method and absolute accuracy not verified",
+  "dhcp_lease_details": "Not visible in photograph",
+  "internet_connectivity": "Not established by this photograph"
+}

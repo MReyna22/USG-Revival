@@ -1,0 +1,19 @@
+# Keep private evidence and device backups outside this public repository.
+private/
+private-originals/
+private-redaction-log.json
+*.001
+*.dd
+*.raw
+*.img
+*.bin
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.pem
+*.key
+.env
+.env.*
+__pycache__/
+*.pyc

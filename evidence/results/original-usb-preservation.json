@@ -1,0 +1,18 @@
+{
+  "status": "Verified from supplied screenshots",
+  "tool": "FTK Imager 8.3.0.27",
+  "case": "USG-REVIVAL",
+  "evidence": "USG-FLASH-01",
+  "source": "UDinfo UF2 4GB USB",
+  "sectorSize": 512,
+  "sectorCount": 7831552,
+  "imageBytes": 4009754624,
+  "imageFilename": "USG_OEM_USB_original_2026-10-03.001",
+  "MD5": "dd75a3d92282660f4108649a007afd9b",
+  "SHA1": "bbe6a03f8f7ba0fd8c369d88e6fa1c95531ff028",
+  "SHA256": "E922CEAA5FD97AA5908C5E173B4F0884E9CFC649486167EF93006C0B5CAD7517",
+  "result": "MD5 and SHA-1 verification matched; no bad blocks reported in image; independent SHA-256 displayed",
+  "privacy": "Full acquired image and unsanitized acquisition report remain private; hashes and sanitized observations only.",
+  "acquisition_limit": "No hardware write blocker documented; Windows mounted USB before imaging; acquired state not claimed forensically pristine.",
+  "hash_correction": "Manual SHA-256 transcription corrected from independent recomputation; original acquired file unchanged."
+}

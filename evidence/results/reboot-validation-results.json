@@ -1,0 +1,19 @@
+{
+  "evidence_source_order": 43,
+  "hostname": "USG-Revival",
+  "previous_uptime_displayed": "1h 22m 3s",
+  "uptime_after_restart_displayed": "0h 1m 6s",
+  "hostname_retained_after_restart": "Confirmed by screenshot and ordered requested test",
+  "firmware_version": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+  "kernel_version": "6.12.94",
+  "administrator_password_changed": "Confirmed by direct user report; password not collected",
+  "fresh_login_using_new_password": "Successful logout and login with updated administrator password, confirmed by user",
+  "configuration_persistence": "Hostname retained in post-reboot screenshot; fresh login using updated administrator password confirmed by direct user report",
+  "memory_available_mib": 337.59,
+  "memory_total_mib": 399.58,
+  "disk_used_mib": 87.76,
+  "disk_total_gib": 1.62,
+  "local_time_displayed": "Oct 4, 2026, 3:04:07 AM CDT",
+  "clock_limitation": "Displayed time differs from prior photograph; absolute accuracy and synchronization method not verified",
+  "internet_routing_and_firewall_tests": "Not performed"
+}

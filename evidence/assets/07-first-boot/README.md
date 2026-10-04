@@ -1,0 +1,7 @@
+# First Boot
+
+[Full evidence index](../../README.md)
+
+- **E040** — [40-openwrt-luci-first-boot-login.png](40-openwrt-luci-first-boot-login.png): The OpenWrt LuCI login page responds at 192.168.1.1 after the first USG boot. The user reports PC-001 connected directly to LAN1 with Cat 6 and Wi-Fi disabled after a five-minute wait. Running firmware version and authenticated access remain unverified at this stage.
+- **E041** — [41-openwrt-status-system-overview.png](41-openwrt-status-system-overview.png): Authenticated LuCI Status Overview identifies the Ubiquiti UniFi Security Gateway running OpenWrt 25.12.5 r33051-f5dae5ece4 on octeon/generic with kernel 6.12.94. Uptime is 1h 6m 4s and load averages are 0.01, 0.02, 0.00. The displayed June 29, 2026 UTC time is inconsistent with the October 4 capture date; clock synchronization is unverified. Password setup, writable storage and reboot persistence remain unverified.
+- **E042** — [42-openwrt-memory-storage-and-port-status.webp](42-openwrt-memory-storage-and-port-status.webp): LuCI Status Overview reports 334.19 MiB available of 399.58 MiB memory (83%), disk usage of 87.76 MiB out of 1.62 GiB (5%), and eth1 linked at 1 GbE while eth0 and eth2 have no link. Uptime is 1h 22m 3s and local time now displays October 4, 2026, 3:13:14 AM CDT. The browser-tab email identifier is redacted. Storage capacity is visible; persistent configuration writes and reboot retention are not yet tested, and the time synchronization method is unknown.

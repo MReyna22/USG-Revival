@@ -1,0 +1,23 @@
+{
+  "evidence_source_order": 41,
+  "screenshot_capture_date_from_filename": "2026-10-04",
+  "hostname": "OpenWrt",
+  "model": "Ubiquiti UniFi Security Gateway",
+  "architecture": "UBNT_USG (CN5020p1.1-500-SCP)",
+  "target_platform": "octeon/generic",
+  "firmware_version": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+  "kernel_version": "6.12.94",
+  "uptime_displayed": "1h 6m 4s",
+  "load_average_displayed": [
+    0.01,
+    0.02,
+    0.0
+  ],
+  "local_time_displayed": "Jun 29, 2026, 2:05:10 PM UTC",
+  "clock_status": "Displayed time is inconsistent with capture date; synchronization not verified",
+  "administrator_login": "Authenticated LuCI page visible",
+  "administrator_password_set": "Not yet independently documented",
+  "writable_storage": "Pending evidence",
+  "configuration_persistence_after_reboot": "Pending test",
+  "internet_routing_and_firewall_tests": "Not performed"
+}

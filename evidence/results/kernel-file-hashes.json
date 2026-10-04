@@ -1,0 +1,24 @@
+[
+  {
+    "file": "vmlinux.64",
+    "bytes": 5755016,
+    "declared_md5": "873e35196d6338b8c5538ca37eb109af",
+    "computed_md5": "873E35196D6338B8C5538CA37EB109AF",
+    "md5_match": true,
+    "sha256": "F154555FE1BCAF8686A81084FD96774803A39704D95FA1598393963A33A25CBA",
+    "verification_date": "2026-10-04",
+    "verification_method": "Locally recomputed from exported file; compared with declared MD5 visible in FTK screenshot",
+    "limitation": "Checksum agreement does not establish publisher authenticity, active boot selection, or successful boot."
+  },
+  {
+    "file": "vmlinux.64o",
+    "bytes": 5755016,
+    "declared_md5": "638682fe0b82dc819dfb4e98fa42f615",
+    "computed_md5": "638682FE0B82DC819DFB4E98FA42F615",
+    "md5_match": true,
+    "sha256": "097D8406230160C5428D980E17218AA1490736F56B361220D135825592EC35C0",
+    "verification_date": "2026-10-04",
+    "verification_method": "Locally recomputed from exported file; compared with declared MD5 visible in FTK screenshot",
+    "limitation": "Checksum agreement does not establish publisher authenticity, active boot selection, or successful boot."
+  }
+]

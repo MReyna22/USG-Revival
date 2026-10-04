@@ -1,0 +1,236 @@
+{
+  "evidence_source_order": 40,
+  "reported_on": "2026-10-04",
+  "screenshot_capture_date_displayed": "2026-10-03",
+  "client_device": "PC-001 (Dell OptiPlex 3070)",
+  "link": "USG LAN1 directly to PC-001 Ethernet using Cat 6",
+  "wifi_status": "Disabled by user report",
+  "wait_before_access": "Five minutes by user report",
+  "management_address": "192.168.1.1",
+  "observed_result": "OpenWrt LuCI Authorization Required page displayed with root username and blank password field",
+  "boot_and_lan_management_access": "Confirmed by user report and screenshot",
+  "running_release": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+  "administrator_login": "Authenticated LuCI page visible",
+  "administrator_password_set": "Changed and fresh login succeeds with new password, confirmed by direct user report",
+  "dhcp_assignment": "Not independently documented",
+  "internet_routing_and_firewall_tests": "IPv4 reachability and DNS captured; browsing confirmed by user; firewall zone policies reviewed against defaults. Inbound enforcement, public IPv6 and long-term reliability not tested.",
+  "system_overview_evidence_source_order": 41,
+  "system_overview": {
+    "evidence_source_order": 41,
+    "screenshot_capture_date_from_filename": "2026-10-04",
+    "hostname": "OpenWrt",
+    "model": "Ubiquiti UniFi Security Gateway",
+    "architecture": "UBNT_USG (CN5020p1.1-500-SCP)",
+    "target_platform": "octeon/generic",
+    "firmware_version": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+    "kernel_version": "6.12.94",
+    "uptime_displayed": "1h 6m 4s",
+    "load_average_displayed": [
+      0.01,
+      0.02,
+      0.0
+    ],
+    "local_time_displayed": "Jun 29, 2026, 2:05:10 PM UTC",
+    "clock_status": "Displayed time is inconsistent with capture date; synchronization not verified",
+    "administrator_login": "Authenticated LuCI page visible",
+    "administrator_password_set": "Not yet independently documented",
+    "writable_storage": "Pending evidence",
+    "configuration_persistence_after_reboot": "Pending test",
+    "internet_routing_and_firewall_tests": "Not performed"
+  },
+  "resource_status": {
+    "evidence_source_order": 42,
+    "memory": {
+      "available_mib": 334.19,
+      "total_mib": 399.58,
+      "available_percent_displayed": 83,
+      "used_mib": 56.96,
+      "buffered_mib": 12.51,
+      "cached_mib": 16.29
+    },
+    "storage": {
+      "disk_used_mib": 87.76,
+      "disk_total_gib": 1.62,
+      "used_percent_displayed": 5,
+      "temp_used_kib": 216.0,
+      "temp_total_mib": 199.79,
+      "persistent_write_and_reboot_test": "Pending"
+    },
+    "ports": {
+      "eth0": "no link",
+      "eth1": "1 GbE",
+      "eth2": "no link"
+    },
+    "uptime_displayed": "1h 22m 3s",
+    "load_average_displayed": [
+      0.0,
+      0.01,
+      0.0
+    ],
+    "local_time_displayed": "Oct 4, 2026, 3:13:14 AM CDT",
+    "clock_observation": "Date and timezone display changed since source 41; synchronization method and absolute accuracy not verified",
+    "dhcp_lease_details": "Not visible in photograph",
+    "internet_connectivity": "Not established by this photograph"
+  },
+  "writable_storage": "Disk capacity 1.62 GiB reported; saved hostname retained across restart demonstrates tested configuration persistence",
+  "configuration_persistence_after_reboot": "Hostname USG-Revival retained; uptime reset to 0h 1m 6s",
+  "reboot_validation": {
+    "evidence_source_order": 43,
+    "hostname": "USG-Revival",
+    "previous_uptime_displayed": "1h 22m 3s",
+    "uptime_after_restart_displayed": "0h 1m 6s",
+    "hostname_retained_after_restart": "Confirmed by screenshot and ordered requested test",
+    "firmware_version": "OpenWrt 25.12.5 r33051-f5dae5ece4",
+    "kernel_version": "6.12.94",
+    "administrator_password_changed": "Confirmed by direct user report; password not collected",
+    "fresh_login_using_new_password": "Successful logout and login with updated administrator password, confirmed by user",
+    "configuration_persistence": "Hostname retained in post-reboot screenshot; fresh login using updated administrator password confirmed by direct user report",
+    "memory_available_mib": 337.59,
+    "memory_total_mib": 399.58,
+    "disk_used_mib": 87.76,
+    "disk_total_gib": 1.62,
+    "local_time_displayed": "Oct 4, 2026, 3:04:07 AM CDT",
+    "clock_limitation": "Displayed time differs from prior photograph; absolute accuracy and synchronization method not verified",
+    "internet_routing_and_firewall_tests": "Not performed"
+  },
+  "administrator_and_backup_confirmation": {
+    "reported_on": "2026-10-04",
+    "evidence_type": "Direct user report following source 43 reboot validation",
+    "fresh_login_using_new_password": "Successful logout and login with updated administrator password, confirmed by user",
+    "configuration_backup": "Generated archive of current configuration, confirmed by user",
+    "backup_privacy": "Kept private and outside public repository, confirmed by user",
+    "password_or_backup_contents_collected": false,
+    "backup_file_independently_inspected": false,
+    "backup_restoration_tested": false,
+    "internet_routing_and_firewall_tests": "Not performed",
+    "next_dependency": "Determine upstream home Wi-Fi LAN IPv4 subnet and gateway before configuring USG WAN test"
+  },
+  "wan_validation": {
+    "evidence_source_order": 45,
+    "lan": {
+      "device": "br-lan",
+      "protocol": "Static address",
+      "carrier": "Present",
+      "ipv4": "192.168.1.1/24",
+      "uptime_displayed": "0h 2m 19s"
+    },
+    "wan": {
+      "device": "eth0",
+      "protocol": "DHCP client",
+      "carrier": "Present",
+      "ipv4": "Private upstream address redacted",
+      "prefix_length": 24,
+      "ipv4_dhcp_lease": "Confirmed visible",
+      "uptime_displayed": "0h 2m 13s",
+      "rx_displayed": "187.72 KB (513 Pkts.)",
+      "tx_displayed": "55.14 KB (256 Pkts.)"
+    },
+    "wan6": {
+      "device": "eth0",
+      "protocol": "DHCPv6 client",
+      "carrier": "Present",
+      "ipv6_scope_observed": "Unique local IPv6 address; actual identifier redacted",
+      "public_ipv6_internet_connectivity": "Not established"
+    },
+    "lan_wan_subnet_overlap": false,
+    "default_route_and_dns_values": "Not shown in screenshot",
+    "pc001_internet_routing_and_dns_tests": "IPv4 reachability and DNS passed in source 46; Edge example.com browsing successful by direct user report",
+    "firewall_security_validation": "Pending"
+  },
+  "client_connectivity_tests": {
+    "evidence_source_order": 46,
+    "client": "PC-001",
+    "topology_basis": "Previously instructed/reported Ethernet connection to USG LAN1 with Wi-Fi off; current photograph does not independently show adapter state",
+    "ping": {
+      "command": "ping -n 4 1.1.1.1",
+      "target": "1.1.1.1",
+      "sent": 4,
+      "received": 4,
+      "lost": 0,
+      "loss_percent": 0,
+      "reply_times_ms": [
+        13,
+        13,
+        22,
+        15
+      ],
+      "ttl_observed": 54,
+      "minimum_ms": 13,
+      "maximum_ms": 22,
+      "average_ms_displayed": 15,
+      "result": "Passed IPv4 ICMP reachability"
+    },
+    "dns": {
+      "command": "nslookup example.com",
+      "server_name": "USG-Revival.lan",
+      "server_address": "Local IPv6 identifier redacted",
+      "response": "Non-authoritative answer",
+      "name": "example.com",
+      "observed_ipv4_answers": [
+        "172.66.147.243",
+        "104.20.23.154"
+      ],
+      "observed_ipv6_answers": [
+        "2606:4700:10::6814:179a",
+        "2606:4700:10::ac42:93f3"
+      ],
+      "result": "Passed name resolution via USG DNS server",
+      "limitation": "Returned AAAA records do not establish public IPv6 reachability"
+    },
+    "https_browsing": "example.com loaded in Edge on PC-001 by direct user report; requested HTTPS URL, actual scheme/TLS details not independently observed",
+    "firewall_security_validation": "Pending",
+    "limitations": [
+      "Small reachability sample; no performance benchmark or long-term stability claim",
+      "No firewall policy verification or public IPv6 connectivity test"
+    ],
+    "browser_confirmation": {
+      "reported_on": "2026-10-04",
+      "evidence_type": "Direct user report following diagnostic screenshot source 46",
+      "client": "PC-001",
+      "browser": "Microsoft Edge",
+      "requested_target": "https://example.com",
+      "observed_target_by_user_report": "example.com",
+      "page_load": "Successful with no issues, confirmed by user",
+      "screenshot_of_page": "Not provided; user confirmation accepted for this check",
+      "scheme_and_tls_details": "Actual address bar, scheme and TLS connection details not independently observed",
+      "topology_basis": "Existing reported Ethernet-only PC-001 -> USG LAN1 -> USG WAN1 -> upstream router topology",
+      "firewall_zone_review": "Pending"
+    }
+  },
+  "firewall_zone_review": {
+    "evidence_source_order": 47,
+    "review_date": "2026-10-04",
+    "general": {
+      "input": "reject",
+      "output": "accept",
+      "forward": "reject",
+      "syn_flood_protection": true,
+      "drop_invalid_packets": false,
+      "flow_offloading": "None"
+    },
+    "lan": {
+      "input": "accept",
+      "output": "accept",
+      "intra_zone_forward": "accept",
+      "forwards_to": [
+        "wan"
+      ],
+      "ipv4_masquerading": false
+    },
+    "wan": {
+      "input": "reject",
+      "output": "accept",
+      "intra_zone_forward": "drop",
+      "ipv4_masquerading": true,
+      "explicit_zone_forwarding_to_lan_visible": false
+    },
+    "comparison": "Visible zone policies match OpenWrt default firewall4 zone configuration",
+    "reference": "https://lxr.openwrt.org/source/firewall4/root/etc/config/firewall",
+    "review_result": "Expected zone-policy baseline documented",
+    "scope_limits": [
+      "No inbound packet enforcement test",
+      "Traffic-rule and port-forward tabs not inspected",
+      "Not a comprehensive security assessment"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "evidence_source_order": 45,
+  "lan": {
+    "device": "br-lan",
+    "protocol": "Static address",
+    "carrier": "Present",
+    "ipv4": "192.168.1.1/24",
+    "uptime_displayed": "0h 2m 19s"
+  },
+  "wan": {
+    "device": "eth0",
+    "protocol": "DHCP client",
+    "carrier": "Present",
+    "ipv4": "Private upstream address redacted",
+    "prefix_length": 24,
+    "ipv4_dhcp_lease": "Confirmed visible",
+    "uptime_displayed": "0h 2m 13s",
+    "rx_displayed": "187.72 KB (513 Pkts.)",
+    "tx_displayed": "55.14 KB (256 Pkts.)"
+  },
+  "wan6": {
+    "device": "eth0",
+    "protocol": "DHCPv6 client",
+    "carrier": "Present",
+    "ipv6_scope_observed": "Unique local IPv6 address; actual identifier redacted",
+    "public_ipv6_internet_connectivity": "Not established"
+  },
+  "lan_wan_subnet_overlap": false,
+  "default_route_and_dns_values": "Not shown in screenshot",
+  "pc001_internet_routing_and_dns_tests": "IPv4 reachability and DNS passed in source 46; Edge example.com browsing successful by direct user report",
+  "firewall_security_validation": "Zone baseline reviewed in source 47; inbound enforcement and rule/port-forward audit not performed",
+  "client_test_evidence_source_order": 46
+}

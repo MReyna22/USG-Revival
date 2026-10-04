@@ -1,0 +1,25 @@
+{
+  "images_reviewed": 46,
+  "images_redacted": 22,
+  "images_context_labeled": 23,
+  "images_without_sensitive_details_identified": 24,
+  "method": "Permanent opaque black rectangles; metadata-free PNG encoding; added context banners and amber directory/file outlines on analysis copies; two high-resolution photos use lossless WebP with identical decoded RGB pixels",
+  "validation": [
+    "All originals match recorded SHA-256 hashes",
+    "Base screenshots retain original dimensions without resampling; annotated copies add a separate banner above the screenshot",
+    "Evidence pixels outside redactions and documented outlines unchanged",
+    "Publication copies visually reviewed",
+    "Archive image hashes match the caption manifest",
+    "Lossless WebP decoded RGB pixels match reviewed PNG copies byte for byte"
+  ],
+  "technical_evidence_retained": [
+    "Board components and internal USB port",
+    "Storage capacities and partition structure",
+    "Boot filenames",
+    "FTK acquisition parameters and verification results",
+    "MD5, SHA-1 and SHA-256 evidence hashes",
+    "FTK filesystem identification"
+  ],
+  "publication_status": "Reviewed public evidence; private originals excluded",
+  "missing_original_image": "One removed-USB view unavailable; collection contains 46 recovered images."
+}
