@@ -33,6 +33,8 @@ My personal goal is to show resourcefulness, curiosity, persistence, and practic
 
 The firewall check records the visible configuration. Inbound enforcement, throughput, long-term reliability, and public IPv6 connectivity were not tested. See the [validation record](docs/04-validation.md) for the method and limits of each result.
 
+PC-001's subsequent Windows baseline and separate Ethernet/Wi-Fi checks are documented in its [device record](https://github.com/MReyna22/slb-corona-donated-gear/blob/main/docs/devices/PC-001.md). Those client screenshots are maintained with the equipment inventory; the Wi-Fi-only test is separate from USG routing validation.
+
 ## Explore the project
 
 | Document | What it covers |

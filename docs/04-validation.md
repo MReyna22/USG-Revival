@@ -22,6 +22,12 @@ The goal was to demonstrate that the repurposed USG boots, retains a tested sett
 
 The client tests used the previously reported Ethernet-only topology with PC-001 Wi-Fi disabled. The terminal photograph itself does not independently display adapter state. Four pings are a small connectivity sample, not a benchmark or long-term stability test.
 
+## Subsequent PC-001 client verification — October 5, 2026
+
+The [PC-001 device record](https://github.com/MReyna22/slb-corona-donated-gear/blob/main/docs/devices/PC-001.md) contains a later Ethernet-only check with Wi-Fi shown disconnected, a 1 Gbps Ethernet link, four ping replies with no loss, and successful DNS resolution. The operator reported Ethernet connected through the USG for that check. This adds explicit client adapter-state evidence to the earlier routing tests; the original observations above remain unchanged.
+
+A separate Wi-Fi-only check, with Ethernet shown disconnected, is documented in the same device record. It verifies PC-001's wireless connectivity and is not evidence of routing through the USG. Link rates are not throughput measurements, and these checks do not establish extended stability or inbound firewall enforcement.
+
 ## Firewall-zone configuration review
 
 [E047](../evidence/assets/10-firewall-review/47-openwrt-firewall-zone-settings.png) shows the following policies. They agree with the [OpenWrt firewall4 default zone configuration](https://lxr.openwrt.org/source/firewall4/root/etc/config/firewall).
